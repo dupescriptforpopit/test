@@ -2,7 +2,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("AnhaHUB", "Synapse")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Dupe")
-
 Section:NewTextBox("Custom Item", "", function(txt)
 	game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(txt)
 end)
@@ -82,7 +81,6 @@ end)
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Owner: Anha#4156")
 local Section = Tab:NewSection("Creator: Anha#4156")
-
 print("Script succefully loaded")
 print("Owner: Anha#4156")
 print("Creator: Anha#4156")
